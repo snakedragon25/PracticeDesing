@@ -1,0 +1,128 @@
+*{
+   margin:0px;
+   padding: 0px;
+}
+body{
+    background: #E9EBEE;
+}
+/* camara actualizar portada*/
+section header div i{
+    position: absolute;
+    z-index: 3;
+    color:#B9B8B8;
+    margin-left: 90px;
+    margin-top: 15px;
+    cursor: pointer;
+    background: #090605;
+    border: 1px solid;
+    padding: 4px;
+}
+/*actualizar portada*/
+section header div i a{
+    margin-left: 7px;
+    cursor: pointer;
+    background: #090605;
+    padding: 4px;
+    color: #B9B8B8;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* portada*/
+section header div span{
+    position: absolute;
+    margin-left: 73px;
+    top: -180px;
+    z-index: 1;
+}
+.selfie{
+    background-image: url(../images/selfie.jpeg);
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    background-position: 50%;
+    margin-top: 125px;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+    background-size: 200% ;
+    border: 5px solid white;
+    cursor: pointer;
+}
+ .james{
+    position: absolute;
+    z-index: 4 ;
+    font-size: 26px;
+    color: white;
+    text-align: left;
+    top:275px;
+    left: 304px;
+}
+.botones{
+    position: absolute;
+    z-index: 4;
+    text-decoration: none;
+    text-align: center;
+    background: #EBEDF0;
+    color: #4B4F56;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+
+}
+.act_info{
+position: absolute;
+z-index: 5;
+top: 281px;
+left: 850px;
+padding-right: 20px;
+}
+.reg_act{
+  position: absolute;
+z-index: 5;
+top: 320px;
+left: 812px;  
+text-decoration: none;
+padding-left: 10px;
+padding-right: 14px;
+}
+
+.figura{
+    margin-right: 10px;
+    color:#818181;
+}
+.figura_flecha {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.bot_post{
+position: absolute;
+margin-top:335px;
+margin-left: 73px;
+font-weight: bold;
+color: #365899;
+font-size: 17px;
+text-decoration: none;
+background: white;
+padding-top: 14px;
+padding-bottom: 14px;
+padding-left: 244px;
+padding-right: 50px;
+}
+section div a{
+    color: #365899;
+    margin-right: 20px;
+    text-decoration: none;
+    padding-right: 17px;
+}
+section div a i{
+    margin-left: 10px;
+}
+
+.archivo{
+    margin-right: 3px;
+}
+section .fondo{
+    
+    bottom: 500px;
+}
